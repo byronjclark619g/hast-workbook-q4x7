@@ -18,6 +18,7 @@ MODULES = [
     ("POE_M02_Student_Page.html", "poe/module-2", "POE Module 2 — Buy, Build, or Stay Employed?", "Find It — Principles of Entrepreneurship"),
     ("NVD_M01_Student_Page.html", "nvd/module-1", "NVD Module 1 — Why Buy a Business?", "Buy It — New Venture Development"),
     ("NVD_M02_Student_Page.html", "nvd/module-2", "NVD Module 2 — The Hidden Market", "Buy It — New Venture Development"),
+    ("SBO_Case_File_Student_Page.html", "sbo/case-file", "SBO Case File — Calumet Lawn & Snow", "Run It — Small Business Operations"),
     ("SBO_M01_Student_Page.html", "sbo/module-1", "SBO Module 1 — You Own It Now", "Run It — Small Business Operations"),
     ("SBO_M02_Student_Page.html", "sbo/module-2", "SBO Module 2 — The First 120 Days", "Run It — Small Business Operations"),
 ]
