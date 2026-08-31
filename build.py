@@ -14,6 +14,7 @@ SRC = pathlib.Path("/Users/bclark/Curriculum")
 ROOT = pathlib.Path(__file__).resolve().parent
 
 MODULES = [
+    ("Rubrics_Student_Page.html", "rubrics", "How Your Work Is Graded", "All courses — rubrics"),
     ("POE_M01_Student_Page.html", "poe/module-1", "POE Module 1 — Owners vs. Earners", "Principles of Entrepreneurship — Find It"),
     ("POE_M02_Student_Page.html", "poe/module-2", "POE Module 2 — Buy, Build, or Stay Employed?", "Principles of Entrepreneurship — Find It"),
     ("NVD_M01_Student_Page.html", "nvd/module-1", "NVD Module 1 — Why Buy a Business?", "New Venture Development — Buy It"),
