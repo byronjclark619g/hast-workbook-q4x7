@@ -17,6 +17,7 @@ MODULES = [
     ("Rubrics_Student_Page.html", "rubrics", "How Your Work Is Graded", "All courses — rubrics"),
     ("POE_M01_Student_Page.html", "poe/module-1", "POE Module 1 — Owners vs. Earners", "Principles of Entrepreneurship — Find It"),
     ("POE_M02_Student_Page.html", "poe/module-2", "POE Module 2 — Buy, Build, or Stay Employed?", "Principles of Entrepreneurship — Find It"),
+    ("POE_M03_Student_Page.html", "poe/module-3", "POE Module 3 — What Makes a Business Worth Wanting?", "Principles of Entrepreneurship — Find It"),
     ("NVD_M01_Student_Page.html", "nvd/module-1", "NVD Module 1 — Why Buy a Business?", "New Venture Development — Buy It"),
     ("NVD_M02_Student_Page.html", "nvd/module-2", "NVD Module 2 — The Hidden Market", "New Venture Development — Buy It"),
     ("SBO_Case_File_Student_Page.html", "sbo/case-file", "SBO Case File — Calumet Lawn & Snow", "Small Business Operations — Run It"),
