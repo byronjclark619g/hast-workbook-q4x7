@@ -27,6 +27,7 @@ MODULES = [
     ("SBO_M01_Student_Page.html", "sbo/module-1", "SBO Module 1 — You Own It Now", "Small Business Operations — Run It"),
     ("SBO_M02_Student_Page.html", "sbo/module-2", "SBO Module 2 — The First 120 Days", "Small Business Operations — Run It"),
     ("SBO_M03_Student_Page.html", "sbo/module-3", "SBO Module 3 — The First Meeting & Listening Systems", "Small Business Operations — Run It"),
+    ("SBO_M04_Student_Page.html", "sbo/module-4", "SBO Module 4 — Hiring I: The Scorecard", "Small Business Operations — Run It"),
 ]
 
 TEMPLATE = """<!doctype html>
