@@ -24,6 +24,7 @@ MODULES = [
     ("NVD_M02_Student_Page.html", "nvd/module-2", "NVD Module 2 — The Hidden Market", "New Venture Development — Buy It"),
     ("NVD_M03_Student_Page.html", "nvd/module-3", "NVD Module 3 — Talking to Owners", "New Venture Development — Buy It"),
     ("NVD_M04_Student_Page.html", "nvd/module-4", "NVD Module 4 — The Referral Network", "New Venture Development — Buy It"),
+    ("NVD_M05_Student_Page.html", "nvd/module-5", "NVD Module 5 — Screening Test 1: Is It Established?", "New Venture Development — Buy It"),
     ("SBO_Case_File_Student_Page.html", "sbo/case-file", "SBO Case File — Calumet Lawn & Snow", "Small Business Operations — Run It"),
     ("SBO_M01_Student_Page.html", "sbo/module-1", "SBO Module 1 — You Own It Now", "Small Business Operations — Run It"),
     ("SBO_M02_Student_Page.html", "sbo/module-2", "SBO Module 2 — The First 120 Days", "Small Business Operations — Run It"),
