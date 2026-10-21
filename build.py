@@ -21,6 +21,7 @@ MODULES = [
     ("POE_M04_Student_Page.html", "poe/module-4", "POE Module 4 — Businesses That Eat Their Owners", "Principles of Entrepreneurship — Find It"),
     ("POE_M05_Student_Page.html", "poe/module-5", "POE Module 5 — Know Yourself First", "Principles of Entrepreneurship — Find It"),
     ("POE_M06_Student_Page.html", "poe/module-6", "POE Module 6 — Your Buy Box", "Principles of Entrepreneurship — Find It"),
+    ("POE_M07_Student_Page.html", "poe/module-7", "POE Module 7 — Mission, Vision, and Your \"Why\"", "Principles of Entrepreneurship — Find It"),
     ("NVD_M01_Student_Page.html", "nvd/module-1", "NVD Module 1 — Why Buy a Business?", "New Venture Development — Buy It"),
     ("NVD_M02_Student_Page.html", "nvd/module-2", "NVD Module 2 — The Hidden Market", "New Venture Development — Buy It"),
     ("NVD_M03_Student_Page.html", "nvd/module-3", "NVD Module 3 — Talking to Owners", "New Venture Development — Buy It"),
