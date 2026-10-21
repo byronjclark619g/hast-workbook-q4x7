@@ -28,6 +28,7 @@ MODULES = [
     ("NVD_M04_Student_Page.html", "nvd/module-4", "NVD Module 4 — The Referral Network", "New Venture Development — Buy It"),
     ("NVD_M05_Student_Page.html", "nvd/module-5", "NVD Module 5 — Screening Test 1: Is It Established?", "New Venture Development — Buy It"),
     ("NVD_M06_Student_Page.html", "nvd/module-6", "NVD Module 6 — Screening Test 2: Can It Grow? (and Can It Pay a Manager?)", "New Venture Development — Buy It"),
+    ("NVD_M07_Student_Page.html", "nvd/module-7", "NVD Module 7 — Screening Test 3: Can the Profit Pay for Everything? (and Look at Many to Buy One)", "New Venture Development — Buy It"),
     ("SBO_Case_File_Student_Page.html", "sbo/case-file", "SBO Case File — Calumet Lawn & Snow", "Small Business Operations — Run It"),
     ("SBO_M01_Student_Page.html", "sbo/module-1", "SBO Module 1 — You Own It Now", "Small Business Operations — Run It"),
     ("SBO_M02_Student_Page.html", "sbo/module-2", "SBO Module 2 — The First 120 Days", "Small Business Operations — Run It"),
@@ -35,6 +36,7 @@ MODULES = [
     ("SBO_M04_Student_Page.html", "sbo/module-4", "SBO Module 4 — Hiring I: The Scorecard", "Small Business Operations — Run It"),
     ("SBO_M05_Student_Page.html", "sbo/module-5", "SBO Module 5 — Hiring II: The Listing That Sells", "Small Business Operations — Run It"),
     ("SBO_M06_Student_Page.html", "sbo/module-6", "SBO Module 6 — Hiring III: The Interview", "Small Business Operations — Run It"),
+    ("SBO_M07_Student_Page.html", "sbo/module-7", "SBO Module 7 — Paying People Right", "Small Business Operations — Run It"),
 ]
 
 TEMPLATE = """<!doctype html>
