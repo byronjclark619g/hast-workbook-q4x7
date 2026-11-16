@@ -39,6 +39,7 @@ MODULES = [
     ("SBO_M05_Student_Page.html", "sbo/module-5", "SBO Module 5 — Hiring II: The Listing That Sells", "Small Business Operations — Run It"),
     ("SBO_M06_Student_Page.html", "sbo/module-6", "SBO Module 6 — Hiring III: The Interview", "Small Business Operations — Run It"),
     ("SBO_M07_Student_Page.html", "sbo/module-7", "SBO Module 7 — Paying People Right", "Small Business Operations — Run It"),
+    ("SBO_M08_Student_Page.html", "sbo/module-8", "SBO Module 8 — Mowing Prices and Contracts", "Small Business Operations — Run It"),
     ("SBO_Research_Day_Student_Page.html", "sbo/research-day", "SBO Research Day — How Do You Decide What to Charge?", "Small Business Operations — Run It"),
 ]
 
