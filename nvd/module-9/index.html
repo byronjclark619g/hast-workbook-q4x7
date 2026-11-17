@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>NVD Module 9 — Due Diligence 2: Build Your Own Checklist · HAST Entrepreneurship</title>
+<style>
+  body{margin:0;background:#fff}
+  .siteband{background:#111;border-bottom:4px solid #C5B358;padding:10px 20px;display:flex;gap:6px 16px;align-items:baseline;flex-wrap:wrap;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif}
+  .siteband a{color:#C5B358;text-decoration:none;font-weight:800;letter-spacing:1px;font-size:15px}
+  .siteband span{color:#d9d9d9;font-size:13px;font-family:Georgia,'Times New Roman',serif;font-style:italic}
+  .pagepad{padding:16px 16px 0}
+</style>
+</head>
+<body>
+<div class="siteband"><a href="../../">HAST ENTREPRENEURSHIP</a><span>New Venture Development — Buy It</span></div>
+<div class="pagepad">
+<div id="mw">
+<style>
+  #mw{--ink:#1a2330;--muted:#5b6675;--line:#dfe4ea;--accent:#274f8f;--accent-bg:#e9f0fb;--accent-line:#c5d6f0;--warn-bg:#fdf3e0;--warn-ink:#8a5a09;
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:var(--ink);max-width:860px;margin:0 auto;line-height:1.6;font-size:16px}
+  #mw *{box-sizing:border-box}
+  #mw h1{font-size:24px;margin:10px 0 2px}
+  #mw h2{font-size:19px;margin:0 0 10px;padding-top:8px}
+  #mw h3{font-size:16px;margin:18px 0 6px}
+  #mw .meta{color:var(--muted);font-size:13.5px;margin:0 0 14px}
+  #mw nav{position:sticky;top:0;background:#fff;padding:10px 0;border-bottom:2px solid var(--line);z-index:5;display:flex;flex-wrap:wrap;gap:8px}
+  #mw nav a{text-decoration:none;padding:7px 14px;border-radius:999px;border:1px solid var(--accent-line);background:var(--accent-bg);color:var(--accent);font-weight:600;font-size:14px}
+  #mw section{padding:18px 0;border-bottom:1px solid var(--line)}
+  #mw .goal{background:var(--accent-bg);border:1px solid var(--accent-line);border-radius:10px;padding:12px 16px;margin:12px 0}
+  #mw .warn{background:var(--warn-bg);border:1px solid #f0dcb0;border-radius:10px;padding:10px 14px;margin:12px 0;color:var(--warn-ink);font-size:14.5px}
+  #mw .case{border-left:4px solid var(--accent-line);background:#fafbfc;padding:10px 14px;margin:12px 0}
+  #mw .card{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:10px 0;background:#fafbfc}
+  #mw section p, #mw .case, #mw .goal, #mw .warn, #mw label, #mw .case ol, #mw .case ul{font-family:Georgia,'Times New Roman',serif}
+  #mw section p, #mw .case, #mw .goal{font-size:16.5px}
+  #mw .case ol, #mw .case ul{margin:6px 0 0;padding-left:24px}
+  #mw .case li{margin:4px 0}
+  #mw label{display:block;font-weight:600;margin:14px 0 4px;font-size:15px}
+  #mw .card label:first-child{margin-top:0}
+  #mw .sub{font-weight:400;color:var(--muted);font-size:13.5px}
+  #mw textarea, #mw input[type=text]{width:100%;padding:9px 11px;border:1px solid var(--line);border-radius:8px;font:15px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#fff}
+  #mw textarea{min-height:76px;resize:vertical}
+  #mw textarea.short{min-height:56px}
+  #mw .ladder{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  #mw .ladder label{margin:0 0 3px;font-size:13.5px}
+  #mw .ladder textarea{min-height:60px;font-size:14px}
+  #mw .rowname{font-family:Georgia,'Times New Roman',serif;font-weight:700;font-size:15.5px;margin:0 0 8px}
+  #mw .savebar{position:sticky;bottom:0;background:#fff;border-top:2px solid var(--line);padding:10px 0;display:flex;gap:10px;align-items:center;flex-wrap:wrap;z-index:5}
+  #mw button{padding:10px 16px;border-radius:8px;border:1px solid var(--accent-line);background:var(--accent-bg);color:var(--accent);font-weight:700;font-size:15px;cursor:pointer}
+  #mw button:hover{filter:brightness(.96)}
+  #mw #status{font-size:13px;color:var(--muted)}
+  #mw #clear{border-color:var(--line);background:#fff;color:var(--muted);font-weight:600;font-size:13px}
+  #mw section > ol{font-family:Georgia,'Times New Roman',serif;font-size:16.5px;padding-left:26px}
+  #mw section > ol li{margin:6px 0}
+  #mw .trio{display:grid;grid-template-columns:1.1fr 1fr 1.5fr;gap:10px}
+  #mw .trio label{margin:0 0 3px;font-size:13.5px}
+  #mw .trio textarea{min-height:56px;font-size:14px}
+  #mw .counts{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+  #mw .counts label{margin:0 0 3px;font-size:13.5px}
+  @media (max-width:600px){#mw .trio,#mw .counts{grid-template-columns:1fr}}
+  @media (max-width:600px){#mw .ladder{grid-template-columns:1fr}}
+  #mw .tscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:10px 0;border:1px solid var(--line);border-radius:10px}
+  #mw table{border-collapse:collapse;width:100%;font-family:Georgia,'Times New Roman',serif;font-size:15.5px}
+  #mw th{background:var(--accent-bg);color:var(--accent);text-align:left;padding:8px 10px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;font-size:13.5px;border-bottom:1px solid var(--line)}
+  #mw td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  #mw tr:last-child td{border-bottom:none}
+  #mw table.fill{min-width:680px}
+  #mw table.fill td{min-width:120px}
+  #mw table textarea.short{min-height:56px;font-size:14px}
+</style>
+<h1>Module 9: Due Diligence 2 — Build Your Own Checklist</h1>
+<p class="meta">New Venture Development · Module 9 of 24 · 85 points total<br>
+Part A: Research — 0 pts (required to unlock Part B) · Part B: Practical Application — 25 pts · Quiz — 10 pts · Checkout — 50 pts</p>
+<nav>
+  <a href="#g">Start Here</a>
+  <a href="#brief">The Brief</a>
+  <a href="#parta">Part A: Research</a>
+  <a href="#partb">Part B: Build the Checklist</a>
+</nav>
+<section id="g">
+<div class="goal"><b>By the end of this module, you will be able to</b> explain what a buyer checks after a first offer, build a due diligence checklist that fits one kind of business, check two items from the outside, and plan who would help you check the rest.</div>
+<p><b>Deal File note:</b> In Module 8 you gave your first business a closer look and wrote the records request a buyer would send. This module goes one step deeper. You will write the checklist a buyer would use for your business, run the parts a student honestly can, and name the people who would help with the rest.</p>
+<div class="warn">Type your answers right on this page — they save automatically <b>on this device</b>. When you're done, click <b>Copy My Answers</b> at the bottom and paste into your answer document in Google Classroom. Paste early, paste often — the Doc is the official copy.</div>
+</section>
+<section id="brief">
+<h2>The Brief (read this first)</h2>
+<p><b>After the first offer.</b> Module 8 covered the first records, which a buyer asks for before any offer. If the buyer and the seller agree on a first offer, the buyer checks much more. Now the buyer reads more than tax returns. Codie Sanchez lists cash-flow statements (reports that show money coming in and going out), contracts, insurance, legal problems, and employee records (page 96). She gives buyers a long checklist. She also says that many things on it will not matter in your deal (page 96). The deeper look has two jobs:</p>
+<ol><li>Check that the money records are accurate.</li><li>Find every risk and every debt that comes with the business.</li></ol>
+<p><b>Every deal is different.</b> Sanchez writes, "Every deal is different, so the items on your due diligence list will change" (page 97). Her example is a laundromat where 80 percent of the revenue comes in as coins. Here is what she would check there (page 97):</p>
+<ol><li>Count the coins in the machines, two days a week, for a month.</li><li>Look at the energy bills.</li><li>Ask how often the machines are serviced, and whether the business has a contract with a repair person who comes quickly when a machine breaks.</li><li>Check the rent and the length of the lease, and compare the rent with what the neighbors pay.</li></ol>
+<p>None of these four would be on a checklist for a heating and cooling company. That company has no coins and no rows of machines. A good checklist starts with one question: what would show me the truth about this kind of business?</p>
+<p><b>How to build a checklist.</b> Module 8 gave you six things a buyer tests: revenue, profit, customers, competitors, employees, and how the work gets done. In this module you add a seventh: technology. Those are your seven groups. Write at least one item for each group. For every item, write four parts:</p>
+<ol><li>What to check.</li><li>Why it matters in this kind of business.</li><li>Where the proof would be: a record, or something you can see from the outside.</li><li>Who could help you check it.</li></ol>
+<p>Here is the first laundromat item with all four parts:</p>
+<div class="tscroll"><table><tr><th>What to check</th><th>Why it matters in this kind of business</th><th>Where the proof would be</th><th>Who could help</th></tr><tr><td>Count the coins in the machines, two days a week, for a month</td><td>Most of the revenue is coins, so the records may not show all of it</td><td>The coins themselves, and the bank deposit records</td><td>An accountant, to compare the counts with the deposits</td></tr></table></div>
+<p><b>Two more warning signs.</b> Module 8 taught one warning sign: the seller's profit is higher than the profit on the tax return. Sanchez names two more on the same page (page 97).</p>
+<ol><li>Bad reviews, again and again. Sanchez says these do not end a deal. A buyer can use them to ask for a lower price. But many complaints to a state licensing board may be a reason to stop.</li><li>A missing license. Her example is a landscaper in a state that requires a license. The buyer asks to see it, and the seller says he "never needed one." Sanchez treats that as a bad sign.</li></ol>
+<p><b>Licenses in Indiana.</b> Some kinds of work need a license from the state. Plumbing is one. Indiana's license search (mylicense.in.gov) shows whether a license is active. Other kinds of work are licensed by a city. Hammond, for example, requires contractors who work in the city to be registered with the city. It gives its own heating license, and it posts a list of licensed contractors on its website. Some kinds of work need no license at all. If you look and find none, write "no license found," and write where you looked.</p>
+<p><b>Experts.</b> A buyer does not check everything alone. Sanchez uses three kinds of help (pages 97–98):</p>
+<ol><li>An accountant reads the money records and looks for numbers that do not match.</li><li>An attorney (a lawyer) reads the contracts and checks whether the business has been sued.</li><li>A person who knows this kind of business. Sanchez says you do not always have to pay this person. Many owners enjoy talking about their work, and the cost may be the price of lunch. You can also pay fifty or a hundred dollars for an hour of advice. She writes that the hour "might save you tens of thousands of dollars on a deal." Her rule is to never do a deal without help from a person who knows that kind of business.</li></ol>
+<p>In Module 4 you listed people like these in your referral network.</p>
+<p><b>Six bigger questions.</b> Sanchez says some checking looks at more than the one business (page 98). These are good questions for the person who knows the trade:</p>
+<ol><li>What risks do businesses of this kind face?</li><li>What new technology or other changes could change how the business is run?</li><li>Do sales come from a few customers or from many?</li><li>Does the business depend on one supplier?</li><li>Is the area the business serves changing?</li><li>Is anything being built nearby that could change sales?</li></ol>
+<p><b>Technology.</b> In Module 6 you named one technology upgrade for your business. Now you ask a wider question: what software and systems does the business use today? Think about how it schedules jobs, sends bills, takes payments, and keeps customer records. A website shows some of this. Can a customer book online or pay online? Some free website-checking pages also list the tools a website uses.</p>
+<p><b>What you can do as a student.</b> You are still not making offers, and no real records will reach you. So you will build the checklist a buyer would use. You will check two items from the outside. You will mark every other item NEEDS RECORDS. You will plan your experts, but you will not contact them for this module.</p>
+</section>
+<section id="parta">
+<h2 class="cph">Part A: Research — "The Quest" (0 points, but required)</h2>
+<p class="sub" style="font-family:Georgia,serif">You must finish Part A before you get credit for Part B. Answer in your own words.</p>
+<label for="f_pa1">1. What changes after a buyer and a seller agree on a first offer? What are the two jobs of the deeper look?</label>
+<textarea id="f_pa1" data-k="pa1" data-label="A1 (after the first offer; two jobs)"></textarea>
+<label for="f_pa2">2. Sanchez says every deal is different. What four things would she check at a laundromat? Why would each one matter there?</label>
+<textarea id="f_pa2" data-k="pa2" data-label="A2 (the laundromat; why each check)"></textarea>
+<label for="f_pa3">3. What are the seven groups on a checklist in this module? What four parts do you write for every item?</label>
+<textarea id="f_pa3" data-k="pa3" data-label="A3 (seven groups; four parts)"></textarea>
+<label for="f_pa4">4. What two warning signs does this module add? Which one can a buyer use to ask for a lower price? Which one may be a reason to stop? Name the three kinds of experts, and say what each one does.</label>
+<textarea id="f_pa4" data-k="pa4" data-label="A4 (two warning signs; three experts)"></textarea>
+<label for="f_pa5">5. <b>Go find out for real:</b> use the business you named first in Module 8 Task 3. (a) Read its reviews. Write how many you read, the website, the date, and any complaint that shows up more than once. (b) Find out whether this kind of work needs a license from the state or from the city. Search for this business's license. Write what you found, where you looked, and the date. If you find no license, write "no license found" and where you looked. This is evidence for Part B.</label>
+<textarea id="f_pa5" data-k="pa5" data-label="A5 (reviews and license search)" style="min-height:150px"></textarea>
+</section>
+<section id="partb">
+<h2 class="cph">Part B: Practical Application — Build the Checklist (25 points)</h2>
+<h3 class="cph">Task 1 — Build Wolf Lake's checklist</h3>
+<p>Practice scenario, all made up. You and the owner of Wolf Lake Heating &amp; Cooling have agreed on a first offer. Here is what you learned in Module 8:</p>
+<ul><li>Wolf Lake has been open 31 years. It has fourteen employees and eleven vans. Eight of the vans are older.</li><li>Revenue last year was $2,600,000. The owner says profit was $450,000. The tax return shows $342,000. The owner says he takes some jobs in cash and does not report them.</li><li>One expense line, "Other," is $312,000. The owner would not explain it.</li><li>About 2,300 customers pay for a yearly maintenance plan. The largest plan customer, an apartment company with 280 plans, will not renew after March 31.</li><li>Three vans have a bank loan: $1,900 a month, with 26 payments left. The owner did not know about it.</li><li>The rent is $5,000 a month. The lease ends in 2031.</li></ul>
+<p>Two rows are done for you. Fill in the other five.</p>
+<div class="tscroll"><table class="fill"><tr><th>Group</th><th>What to check</th><th>Why it matters at Wolf Lake</th><th>Where the proof would be</th><th>Who could help</th></tr><tr><td>Revenue</td><td>Count the plan payments that came in each month for the last twelve months</td><td>Plans are money that comes in every year, and 2,300 is only the owner's number</td><td>The plan list with payment dates, and the bank statements</td><td>An accountant</td></tr><tr><td>Profit</td><td><textarea id="f_t2_2_1" data-k="t2_2_1" data-label="B1 Wolf Lake — Profit — What to check" class="short"></textarea></td><td><textarea id="f_t2_2_2" data-k="t2_2_2" data-label="B1 Wolf Lake — Profit — Why it matters at Wolf Lake" class="short"></textarea></td><td><textarea id="f_t2_2_3" data-k="t2_2_3" data-label="B1 Wolf Lake — Profit — Where the proof would be" class="short"></textarea></td><td><textarea id="f_t2_2_4" data-k="t2_2_4" data-label="B1 Wolf Lake — Profit — Who could help" class="short"></textarea></td></tr><tr><td>Customers</td><td><textarea id="f_t2_3_1" data-k="t2_3_1" data-label="B1 Wolf Lake — Customers — What to check" class="short"></textarea></td><td><textarea id="f_t2_3_2" data-k="t2_3_2" data-label="B1 Wolf Lake — Customers — Why it matters at Wolf Lake" class="short"></textarea></td><td><textarea id="f_t2_3_3" data-k="t2_3_3" data-label="B1 Wolf Lake — Customers — Where the proof would be" class="short"></textarea></td><td><textarea id="f_t2_3_4" data-k="t2_3_4" data-label="B1 Wolf Lake — Customers — Who could help" class="short"></textarea></td></tr><tr><td>Competitors</td><td><textarea id="f_t2_4_1" data-k="t2_4_1" data-label="B1 Wolf Lake — Competitors — What to check" class="short"></textarea></td><td><textarea id="f_t2_4_2" data-k="t2_4_2" data-label="B1 Wolf Lake — Competitors — Why it matters at Wolf Lake" class="short"></textarea></td><td><textarea id="f_t2_4_3" data-k="t2_4_3" data-label="B1 Wolf Lake — Competitors — Where the proof would be" class="short"></textarea></td><td><textarea id="f_t2_4_4" data-k="t2_4_4" data-label="B1 Wolf Lake — Competitors — Who could help" class="short"></textarea></td></tr><tr><td>Employees</td><td><textarea id="f_t2_5_1" data-k="t2_5_1" data-label="B1 Wolf Lake — Employees — What to check" class="short"></textarea></td><td><textarea id="f_t2_5_2" data-k="t2_5_2" data-label="B1 Wolf Lake — Employees — Why it matters at Wolf Lake" class="short"></textarea></td><td><textarea id="f_t2_5_3" data-k="t2_5_3" data-label="B1 Wolf Lake — Employees — Where the proof would be" class="short"></textarea></td><td><textarea id="f_t2_5_4" data-k="t2_5_4" data-label="B1 Wolf Lake — Employees — Who could help" class="short"></textarea></td></tr><tr><td>How the work gets done</td><td>Look at the repair records for the eight older vans</td><td>Old vans break down, and a van that is not running earns nothing</td><td>The repair bills, and the vans themselves</td><td>A mechanic</td></tr><tr><td>Technology</td><td><textarea id="f_t2_7_1" data-k="t2_7_1" data-label="B1 Wolf Lake — Technology — What to check" class="short"></textarea></td><td><textarea id="f_t2_7_2" data-k="t2_7_2" data-label="B1 Wolf Lake — Technology — Why it matters at Wolf Lake" class="short"></textarea></td><td><textarea id="f_t2_7_3" data-k="t2_7_3" data-label="B1 Wolf Lake — Technology — Where the proof would be" class="short"></textarea></td><td><textarea id="f_t2_7_4" data-k="t2_7_4" data-label="B1 Wolf Lake — Technology — Who could help" class="short"></textarea></td></tr></table></div>
+<p>Now answer:</p>
+<div class="card"><label for="f_t1a">(a) The apartment company has 280 of the 2,300 plans. About what percent is that? Why does it belong on the checklist?</label><textarea id="f_t1a" data-k="t1a" data-label="B1 (a)" style="min-height:90px"></textarea></div>
+<div class="card"><label for="f_t1b">(b) How much is still owed on the three vans? Show the math.</label><textarea id="f_t1b" data-k="t1b" data-label="B1 (b)" style="min-height:90px"></textarea></div>
+<div class="card"><label for="f_t1c">(c) At the laundromat, the most important check is the coin count. Which item on your Wolf Lake checklist is the most important one? Why?</label><textarea id="f_t1c" data-k="t1c" data-label="B1 (c)" style="min-height:90px"></textarea></div>
+<h3 class="cph">Task 2 — Build your own checklist</h3>
+<p>Use the business you named first in Module 8 Task 3. Write eight items: one for each of the seven groups, and one more for any group you choose.</p>
+<label for="f_b2n">My business</label><input type="text" id="f_b2n" data-k="b2n" data-label="B2 My business (name)">
+<div class="tscroll"><table class="fill"><tr><th>Group</th><th>What to check</th><th>Why it matters in this kind of business</th><th>Where the proof would be</th><th>Who could help</th></tr><tr><td>Revenue</td><td><textarea id="f_t3_1_1" data-k="t3_1_1" data-label="B2 My checklist — Revenue — What to check" class="short"></textarea></td><td><textarea id="f_t3_1_2" data-k="t3_1_2" data-label="B2 My checklist — Revenue — Why it matters in this kind of business" class="short"></textarea></td><td><textarea id="f_t3_1_3" data-k="t3_1_3" data-label="B2 My checklist — Revenue — Where the proof would be" class="short"></textarea></td><td><textarea id="f_t3_1_4" data-k="t3_1_4" data-label="B2 My checklist — Revenue — Who could help" class="short"></textarea></td></tr><tr><td>Profit</td><td><textarea id="f_t3_2_1" data-k="t3_2_1" data-label="B2 My checklist — Profit — What to check" class="short"></textarea></td><td><textarea id="f_t3_2_2" data-k="t3_2_2" data-label="B2 My checklist — Profit — Why it matters in this kind of business" class="short"></textarea></td><td><textarea id="f_t3_2_3" data-k="t3_2_3" data-label="B2 My checklist — Profit — Where the proof would be" class="short"></textarea></td><td><textarea id="f_t3_2_4" data-k="t3_2_4" data-label="B2 My checklist — Profit — Who could help" class="short"></textarea></td></tr><tr><td>Customers</td><td><textarea id="f_t3_3_1" data-k="t3_3_1" data-label="B2 My checklist — Customers — What to check" class="short"></textarea></td><td><textarea id="f_t3_3_2" data-k="t3_3_2" data-label="B2 My checklist — Customers — Why it matters in this kind of business" class="short"></textarea></td><td><textarea id="f_t3_3_3" data-k="t3_3_3" data-label="B2 My checklist — Customers — Where the proof would be" class="short"></textarea></td><td><textarea id="f_t3_3_4" data-k="t3_3_4" data-label="B2 My checklist — Customers — Who could help" class="short"></textarea></td></tr><tr><td>Competitors</td><td><textarea id="f_t3_4_1" data-k="t3_4_1" data-label="B2 My checklist — Competitors — What to check" class="short"></textarea></td><td><textarea id="f_t3_4_2" data-k="t3_4_2" data-label="B2 My checklist — Competitors — Why it matters in this kind of business" class="short"></textarea></td><td><textarea id="f_t3_4_3" data-k="t3_4_3" data-label="B2 My checklist — Competitors — Where the proof would be" class="short"></textarea></td><td><textarea id="f_t3_4_4" data-k="t3_4_4" data-label="B2 My checklist — Competitors — Who could help" class="short"></textarea></td></tr><tr><td>Employees</td><td><textarea id="f_t3_5_1" data-k="t3_5_1" data-label="B2 My checklist — Employees — What to check" class="short"></textarea></td><td><textarea id="f_t3_5_2" data-k="t3_5_2" data-label="B2 My checklist — Employees — Why it matters in this kind of business" class="short"></textarea></td><td><textarea id="f_t3_5_3" data-k="t3_5_3" data-label="B2 My checklist — Employees — Where the proof would be" class="short"></textarea></td><td><textarea id="f_t3_5_4" data-k="t3_5_4" data-label="B2 My checklist — Employees — Who could help" class="short"></textarea></td></tr><tr><td>How the work gets done</td><td><textarea id="f_t3_6_1" data-k="t3_6_1" data-label="B2 My checklist — How the work gets done — What to check" class="short"></textarea></td><td><textarea id="f_t3_6_2" data-k="t3_6_2" data-label="B2 My checklist — How the work gets done — Why it matters in this kind of business" class="short"></textarea></td><td><textarea id="f_t3_6_3" data-k="t3_6_3" data-label="B2 My checklist — How the work gets done — Where the proof would be" class="short"></textarea></td><td><textarea id="f_t3_6_4" data-k="t3_6_4" data-label="B2 My checklist — How the work gets done — Who could help" class="short"></textarea></td></tr><tr><td>Technology</td><td><textarea id="f_t3_7_1" data-k="t3_7_1" data-label="B2 My checklist — Technology — What to check" class="short"></textarea></td><td><textarea id="f_t3_7_2" data-k="t3_7_2" data-label="B2 My checklist — Technology — Why it matters in this kind of business" class="short"></textarea></td><td><textarea id="f_t3_7_3" data-k="t3_7_3" data-label="B2 My checklist — Technology — Where the proof would be" class="short"></textarea></td><td><textarea id="f_t3_7_4" data-k="t3_7_4" data-label="B2 My checklist — Technology — Who could help" class="short"></textarea></td></tr><tr><td>One more (name the group)</td><td><textarea id="f_t3_8_1" data-k="t3_8_1" data-label="B2 My checklist — One more (name the group) — What to check" class="short"></textarea></td><td><textarea id="f_t3_8_2" data-k="t3_8_2" data-label="B2 My checklist — One more (name the group) — Why it matters in this kind of business" class="short"></textarea></td><td><textarea id="f_t3_8_3" data-k="t3_8_3" data-label="B2 My checklist — One more (name the group) — Where the proof would be" class="short"></textarea></td><td><textarea id="f_t3_8_4" data-k="t3_8_4" data-label="B2 My checklist — One more (name the group) — Who could help" class="short"></textarea></td></tr></table></div>
+<div class="card"><label for="f_b2top">Which item is the most important check for this kind of business? Why?</label><textarea id="f_b2top" data-k="b2top" data-label="B2 (most important check, and why)" style="min-height:90px"></textarea></div>
+<h3 class="cph">Task 3 — Check two items and plan your experts</h3>
+<p><i>Step 1 — Check two items from the outside.</i> Your reviews and your license search from Part A Question 5 can be your two. Give each one a mark: checked, does not match, or not found.</p>
+<div class="tscroll"><table class="fill"><tr><th>Check</th><th>Checklist item</th><th>What I found, where, and the date</th><th>Mark</th></tr><tr><td>1</td><td><textarea id="f_t4_1_1" data-k="t4_1_1" data-label="B3 Step 1 — Check 1 — Checklist item" class="short"></textarea></td><td><textarea id="f_t4_1_2" data-k="t4_1_2" data-label="B3 Step 1 — Check 1 — What I found, where, and the date" class="short"></textarea></td><td><textarea id="f_t4_1_3" data-k="t4_1_3" data-label="B3 Step 1 — Check 1 — Mark" class="short"></textarea></td></tr><tr><td>2</td><td><textarea id="f_t4_2_1" data-k="t4_2_1" data-label="B3 Step 1 — Check 2 — Checklist item" class="short"></textarea></td><td><textarea id="f_t4_2_2" data-k="t4_2_2" data-label="B3 Step 1 — Check 2 — What I found, where, and the date" class="short"></textarea></td><td><textarea id="f_t4_2_3" data-k="t4_2_3" data-label="B3 Step 1 — Check 2 — Mark" class="short"></textarea></td></tr></table></div>
+<p>Every other item on your checklist is marked NEEDS RECORDS.</p>
+<p><i>Step 2 — Plan your experts.</i> Do not contact anyone for this module. For each kind of expert, write who you would ask. Write a name if you know one. If you do not, write the kind of person and where you would find one. Then write which checklist items that person would help with.</p>
+<div class="tscroll"><table><tr><th>Expert</th><th>Who I would ask</th><th>Which checklist items</th></tr><tr><td>An accountant</td><td><textarea id="f_t5_1_1" data-k="t5_1_1" data-label="B3 Step 2 — An accountant — Who I would ask" class="short"></textarea></td><td><textarea id="f_t5_1_2" data-k="t5_1_2" data-label="B3 Step 2 — An accountant — Which checklist items" class="short"></textarea></td></tr><tr><td>An attorney</td><td><textarea id="f_t5_2_1" data-k="t5_2_1" data-label="B3 Step 2 — An attorney — Who I would ask" class="short"></textarea></td><td><textarea id="f_t5_2_2" data-k="t5_2_2" data-label="B3 Step 2 — An attorney — Which checklist items" class="short"></textarea></td></tr><tr><td>A person who knows this kind of business</td><td><textarea id="f_t5_3_1" data-k="t5_3_1" data-label="B3 Step 2 — A person who knows this kind of business — Who I would ask" class="short"></textarea></td><td><textarea id="f_t5_3_2" data-k="t5_3_2" data-label="B3 Step 2 — A person who knows this kind of business — Which checklist items" class="short"></textarea></td></tr></table></div>
+<p><i>Step 3 — Write five questions.</i> Write five questions for the person who knows this kind of business. Use at least two of the six bigger questions from the Brief, in your own words. Write NOT ASKED at the top.</p>
+<div class="card"><textarea id="f_b3q" data-k="b3q" data-label="B3 Step 3 (five questions — NOT ASKED)" style="min-height:200px"></textarea></div>
+<h3 class="cph">Task 4 — Update your Deal File</h3>
+<p><i>Step 1 — Record what you found.</i></p>
+<div class="tscroll"><table><tr><th>What my two checks found</th><th>What still needs records</th><th>Still worth a closer look? Why?</th></tr></table></div>
+<p><i>Step 2 — Update your counts.</i> Write four numbers: businesses looked at; checked for the Module 5 marks; run through the Modules 5–7 tests; given a closer look.</p>
+<div class="card"><div class="counts"><div><label for="f_c1">Businesses looked at</label><input type="text" id="f_c1" data-k="c1" data-label="B4 Count — Businesses looked at"></div><div><label for="f_c2">Checked for the Module 5 marks</label><input type="text" id="f_c2" data-k="c2" data-label="B4 Count — Checked for the Module 5 marks"></div><div><label for="f_c3">Run through the Modules 5–7 tests</label><input type="text" id="f_c3" data-k="c3" data-label="B4 Count — Run through the Modules 5–7 tests"></div><div><label for="f_c4">Given a closer look</label><input type="text" id="f_c4" data-k="c4" data-label="B4 Count — Given a closer look"></div></div></div>
+<p><i>Step 3 — Write 4–5 sentences.</i> Is your front-runner still your front-runner? What did the reviews and the license search tell you? Which item on your checklist worries you most, and who would help you check it?</p>
+<div class="card"><textarea id="f_b4dd" data-k="b4dd" data-label="B4 (Deal File update — 4–5 sentences)" style="min-height:150px"></textarea></div>
+<p><i>Tasks 1–4 are graded together using the Practical Application Rubric.</i></p>
+<p><b>Why this works:</b> A general checklist treats a laundromat and a heating company the same way. A buyer who writes a checklist for one kind of business knows what to ask for, where the proof is, and who can read it. That buyer finds problems before paying for the business.</p>
+</section>
+<div class="savebar">
+  <button id="copybtn">Copy My Answers</button>
+  <span id="status">Answers save automatically on this device.</span>
+  <button id="clear">Clear all answers</button>
+</div>
+<script>
+(function(){
+  var PRE='nvd_m9_', TITLE='NVD MODULE 9 — DUE DILIGENCE 2: BUILD YOUR OWN CHECKLIST — ANSWER SHEET'S STORY TRUE? — ANSWER SHEET';
+  var wrap=document.getElementById('mw');
+  var fields=wrap.querySelectorAll('[data-k]');
+  var status=document.getElementById('status');
+  var canStore=true;
+  try{ localStorage.setItem(PRE+'probe','1'); localStorage.removeItem(PRE+'probe'); }
+  catch(e){ canStore=false; status.textContent='Heads up: saving is OFF on this device — copy your answers before closing this tab.'; }
+  fields.forEach(function(f){
+    if(canStore){ var v=localStorage.getItem(PRE+f.getAttribute('data-k')); if(v) f.value=v; }
+    f.addEventListener('input', function(){
+      if(!canStore) return;
+      try{ localStorage.setItem(PRE+f.getAttribute('data-k'), f.value); status.textContent='Saved on this device ✓'; }catch(e){}
+    });
+  });
+  document.getElementById('copybtn').addEventListener('click', function(){
+    var L=[TITLE,'Copied: '+new Date().toLocaleString(),''];
+    wrap.querySelectorAll('.cph, [data-k]').forEach(function(el){
+      if(el.classList && el.classList.contains('cph')){ L.push(''); L.push('== '+el.textContent.trim().toUpperCase()+' =='); }
+      else{ var v=(el.value||'').trim()||'(no answer)'; L.push(el.getAttribute('data-label')+': '+v); }
+    });
+    var text=L.join('\n'), btn=this;
+    function done(){ var t=btn.textContent; btn.textContent='Copied — now paste into your Doc'; setTimeout(function(){btn.textContent=t;},2500); }
+    function fallback(){
+      var ta=document.createElement('textarea'); ta.value=text; document.body.appendChild(ta); ta.select();
+      try{ document.execCommand('copy'); done(); }catch(e){ alert('Copy failed — select your answers by hand.'); }
+      document.body.removeChild(ta);
+    }
+    if(navigator.clipboard&&navigator.clipboard.writeText){ navigator.clipboard.writeText(text).then(done, fallback); }
+    else fallback();
+  });
+  var armed=false;
+  document.getElementById('clear').addEventListener('click', function(){
+    if(!armed){ armed=true; this.textContent='Really clear? Click again'; var b=this;
+      setTimeout(function(){ armed=false; b.textContent='Clear all answers'; },3000); return; }
+    fields.forEach(function(f){ f.value=''; if(canStore) try{ localStorage.removeItem(PRE+f.getAttribute('data-k')); }catch(e){} });
+    armed=false; this.textContent='Clear all answers'; status.textContent='Cleared.';
+  });
+})();
+</script>
+</div>
+
+</div>
+</body>
+</html>
